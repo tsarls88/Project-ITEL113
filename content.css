@@ -1,0 +1,37 @@
+.text-box 
+{
+    width: 90%;
+    color: #2bab0d;
+    position: absolute;
+    left: 50%;
+    top:300px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box a{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #2bab0d;
+}
+.back 
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url
+    (1234.jpg);
+}
+.hero-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding :12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
