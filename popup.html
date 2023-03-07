@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="popup101.css">
+<script src="https://kit.fontawesome.com/d49126cf78.js" crossorigin="anonymous"></script>
+
+<body>
+ <div class="popup" id="popup-1">
+   <div class="content">
+     <div class="close-btn" onclick="togglePopup()"> ×</div>
+        <div class="title">Offices</div>
+        <button class="second-button">Business Office</button>
+        <button class="second-button">Records Section</button>
+        <button class="second-button">Library</button>
+        <button class="second-button">Colleges</button>
+        <button class="second-button">Admission</button>
+        <button class="second-button">Guidance and Testing Center</button>
+    </div>
+  </div>
+  <button onclick="togglePopup()" class="first-button">Offices</button>
+<script>
+ function togglePopup() {
+ document.getElementById("popup-1")
+  .classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
